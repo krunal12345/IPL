@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\controllers\\iplcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:controllers\\iplcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\service\\teamplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:service\\teamplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\service\\contract\\iteamplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:service\\contract\\iteamplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\data\\contract\\iteampayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:data\\contract\\iteampayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\data\\repository\\teampayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:data\\repository\\teampayerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:models\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\automappers\\teamplayerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:automappers\\teamplayerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:models\\teamdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\data\\configurations\\playerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:data\\configurations\\playerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\data\\configurations\\teamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:data\\configurations\\teamconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|c:\\users\\krunalvekariya\\source\\repos\\ipl\\ipl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27A29EC2-52CA-4D36-A786-6BF354DBD864}|IPL.csproj|solutionrelative:ipl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeamDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Models\\TeamDTO.cs",
+              "RelativeDocumentMoniker": "Models\\TeamDTO.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Models\\TeamDTO.cs",
+              "RelativeToolTip": "Models\\TeamDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:07:37.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerDTO.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Models\\PlayerDTO.cs",
+              "RelativeDocumentMoniker": "Models\\PlayerDTO.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Models\\PlayerDTO.cs",
+              "RelativeToolTip": "Models\\PlayerDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T02:33:31.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Entities\\Player.cs",
+              "RelativeDocumentMoniker": "Entities\\Player.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Entities\\Player.cs",
+              "RelativeToolTip": "Entities\\Player.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T02:28:12.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPL",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\IPL.csproj",
+              "RelativeDocumentMoniker": "IPL.csproj",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\IPL.csproj",
+              "RelativeToolTip": "IPL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-30T02:09:19.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeamConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\configurations\\TeamConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\configurations\\TeamConfiguration.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\configurations\\TeamConfiguration.cs",
+              "RelativeToolTip": "Data\\configurations\\TeamConfiguration.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:56:31.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITeamPayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\Contract\\ITeamPayerRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Contract\\ITeamPayerRepository.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\Contract\\ITeamPayerRepository.cs",
+              "RelativeToolTip": "Data\\Contract\\ITeamPayerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:29:07.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IPLController.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Controllers\\IPLController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IPLController.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Controllers\\IPLController.cs",
+              "RelativeToolTip": "Controllers\\IPLController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:16:53.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeamPlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Service\\TeamPlayerService.cs",
+              "RelativeDocumentMoniker": "Service\\TeamPlayerService.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Service\\TeamPlayerService.cs",
+              "RelativeToolTip": "Service\\TeamPlayerService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowDIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:10:42.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITeamPlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Service\\Contract\\ITeamPlayerService.cs",
+              "RelativeDocumentMoniker": "Service\\Contract\\ITeamPlayerService.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Service\\Contract\\ITeamPlayerService.cs",
+              "RelativeToolTip": "Service\\Contract\\ITeamPlayerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T16:09:21.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamPayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\Repository\\TeamPayerRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\TeamPayerRepository.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\Repository\\TeamPayerRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\TeamPayerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:28:47.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAewBwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:27:47.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\configurations\\PlayerConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\configurations\\PlayerConfiguration.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\Data\\configurations\\PlayerConfiguration.cs",
+              "RelativeToolTip": "Data\\configurations\\PlayerConfiguration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:56:27.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TeamPlayerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\AutoMappers\\TeamPlayerProfile.cs",
+              "RelativeDocumentMoniker": "AutoMappers\\TeamPlayerProfile.cs",
+              "ToolTip": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\AutoMappers\\TeamPlayerProfile.cs",
+              "RelativeToolTip": "AutoMappers\\TeamPlayerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T02:51:57.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
