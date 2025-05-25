@@ -54,7 +54,7 @@ namespace IPL.Data.Repository
         public async Task<List<Player>> GetPlayersAsync(string name = null)
         {
             return await this._iplDbContext.Players
-                .Where(p => name.IsNullOrEmpty() || 
+                .Where(p => String.IsNullOrEmpty(name) || 
                     p.Name.ToLower().Contains(name))
                 .ToListAsync();
         }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IPL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30f78b815b467940fdb5610457ee7fd8481e966d")]
 [assembly: System.Reflection.AssemblyProductAttribute("IPL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IPL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

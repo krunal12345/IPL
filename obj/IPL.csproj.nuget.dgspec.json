@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\IPL.csproj": {}
+    "D:\\Projects\\learning\\IPL\\IPL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\IPL.csproj": {
+    "D:\\Projects\\learning\\IPL\\IPL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\IPL.csproj",
+        "projectUniqueName": "D:\\Projects\\learning\\IPL\\IPL.csproj",
         "projectName": "IPL",
-        "projectPath": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\IPL.csproj",
+        "projectPath": "D:\\Projects\\learning\\IPL\\IPL.csproj",
         "packagesPath": "C:\\Users\\KrunalVekariya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KrunalVekariya\\source\\repos\\IPL\\obj\\",
+        "outputPath": "D:\\Projects\\learning\\IPL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KrunalVekariya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,9 +64,21 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.24, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.11.0, )"
             }
           },
           "imports": [

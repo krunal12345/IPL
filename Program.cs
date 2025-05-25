@@ -6,6 +6,7 @@ using IPL.Service;
 using IPL.Service.Contract;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Scalar.AspNetCore;
 
 namespace IPL
 {
@@ -21,6 +22,8 @@ namespace IPL
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
             builder.Services.AddDbContext<IPLDbContext>(options =>
                 options.UseSqlServer(config.GetConnectionString("IPLConnectionString")));
 
@@ -28,8 +31,11 @@ namespace IPL
 
             #region DI
             builder.Services
+                .AddTransient<ConfigurationManager>()
                 .AddTransient<ITeamPayerRepository, TeamPayerRepository>()
-                .AddTransient<ITeamPlayerService, TeamPlayerService>();
+                .AddTransient<ITeamPlayerService, TeamPlayerService>()
+                .AddTransient<IUserRepository, UserRepository>()
+                .AddTransient<IUserService, UserService>();
             #endregion
 
             var app = builder.Build();
@@ -38,6 +44,7 @@ namespace IPL
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
+                app.MapScalarApiReference();
             }
 
             app.UseHttpsRedirection();
