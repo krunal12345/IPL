@@ -26,13 +26,13 @@ namespace IPL.Controllers
                 Tokens? tokens = await userService.LoginUser(user);
                 if (tokens == null)
                 {
-                    return BadRequest("User does not exist");
+                    return BadRequest("UserName or password not correct");
                 }
                 return Ok(tokens);
             }
             catch (Exception ex)
             {
-                return BadRequest("UserName or passWord not correct");
+                throw ex;
             }
         }
     }

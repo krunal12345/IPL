@@ -10,7 +10,7 @@ using System.Text;
 
 namespace IPL.Service
 {
-    public class UserService(IUserRepository userRepo, ConfigurationManager configuration): IUserService
+    public class UserService(IUserRepository userRepo, IConfiguration configuration) : IUserService
     {
         public async Task AddUser(UserDTO user)
         {
@@ -21,7 +21,6 @@ namespace IPL.Service
                 Role = user.Role,
                 HashPassword = new PasswordHasher<UserDTO>().HashPassword(user, user.Password)
             };
-
             await userRepo.AddUser(usr);
         }
 
@@ -38,7 +37,15 @@ namespace IPL.Service
                 return null;
             }
 
-            bool isPassWordCorrect = this.VerifyPassWord(new UserDTO(), user.Password, userDetails.HashPassword);
+            // Create a UserDTO with the same data used during registration
+            var userDto = new UserDTO
+            {
+                Email = userDetails.Email,
+                Name = userDetails.Name,
+                Role = userDetails.Role,
+            };
+
+            bool isPassWordCorrect = this.VerifyPassWord(userDto, user.Password, userDetails.HashPassword);
             if (!isPassWordCorrect)
             {
                 throw new Exception("User Name or PassWord not correct");
@@ -49,7 +56,7 @@ namespace IPL.Service
 
         private bool VerifyPassWord(UserDTO user, string passWord, string storedPassword)
         {
-            return new PasswordHasher<UserDTO>().VerifyHashedPassword(user, passWord, storedPassword) 
+            return new PasswordHasher<UserDTO>().VerifyHashedPassword(user, storedPassword, passWord)
                 == PasswordVerificationResult.Success;
         }
 
@@ -62,27 +69,30 @@ namespace IPL.Service
                 new Claim(ClaimTypes.Role, userDetails.Role)
             };
 
-            byte[] key = Encoding.UTF8.GetBytes(configuration["JWt:SecretKey"]);
-            SymmetricSecurityKey securityKey = new SymmetricSecurityKey(key);
+            try{
+                byte[] key = Encoding.UTF8.GetBytes(configuration["JWT:SecretKey"]);
+                SymmetricSecurityKey securityKey = new SymmetricSecurityKey(key);
+                SigningCredentials creds = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha512);
 
-            SigningCredentials creds = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha512);
+                var token = new JwtSecurityToken(
+                    issuer: configuration["JWT:Issuer"],
+                    audience: configuration["JWT:Audience"],
+                    claims: claims,
+                    expires: DateTime.Now.AddHours(1),
+                    signingCredentials: creds
+                );
 
-            var token = new JwtSecurityToken(
-                issuer: configuration["JWt:Issuer"],
-                audience: configuration["JWt:Audience"],
-                claims: claims,
-                expires: DateTime.Now.AddHours(1),
-                signingCredentials: creds
-            );
-
-            string accessToken = new JwtSecurityTokenHandler().WriteToken(token);
-
-            var tokens = new Tokens()
+                string accessToken = new JwtSecurityTokenHandler().WriteToken(token);
+                var tokens = new Tokens()
+                {
+                    AccessToken = accessToken
+                };
+                return tokens;
+            }
+            catch (Exception e)
             {
-                AccessToken = accessToken
-            };
-
-            return tokens;
+                throw;
+            }
         }
     }
 }

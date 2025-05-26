@@ -1,5 +1,6 @@
 ﻿using IPL.Models;
 using IPL.Service.Contract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IPL.Controllers
@@ -15,8 +16,9 @@ namespace IPL.Controllers
         }
 
         #region Get
-        [Route("teams")]
         [HttpGet]
+        [Route("teams")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<TeamDTO>>> GetAllTeamsAsync(bool addPlayers, 
             string name = null)
         {
@@ -27,6 +29,7 @@ namespace IPL.Controllers
 
         [HttpGet]
         [Route("teams/{id}")]
+        [Authorize]
         public async Task<ActionResult<TeamDTO>> GetTeamByIdAsync(int id)
         {
             var team = await _teamPlayerService.GetTeamAsync(id);
@@ -38,13 +41,14 @@ namespace IPL.Controllers
 
         [HttpGet]
         [Route("players")]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<PlayerDTO>>> GetAllPlayersAsync(string name = null)
         {
             var teams = await _teamPlayerService.GetPlayersAsync(name);
             return Ok(teams);
         }
 
-        [HttpGet()]
+        [HttpGet]
         [Route("players/{id}")]
         public async Task<ActionResult<PlayerDTO>> GetPlayerByIdAsync(int id)
         {
@@ -59,6 +63,7 @@ namespace IPL.Controllers
 
         #region put/post
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         [Route("teams")]
         public async Task<IActionResult> CreateTeamAsync(TeamDTO team)
         {
